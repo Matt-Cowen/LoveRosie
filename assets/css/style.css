@@ -107,3 +107,15 @@ header {
     padding: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
+
+
+/* -----------------CSS overides for hover.css--------------- */
+
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+}
