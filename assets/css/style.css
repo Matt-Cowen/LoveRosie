@@ -195,7 +195,7 @@ footer {
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
-    transition: all 0.35s ease-in;
+    transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -377,9 +377,9 @@ footer {
     color: #fafafa;
 }
 
-/* .btn-project:hover {
+.btn-project:hover::after {
     background-color: #3498dbb4;
-} */
+}
 
 
 @media(min-width:992px) {
