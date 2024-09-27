@@ -20,6 +20,10 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -349,4 +353,40 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+/* Contact Form  */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.btn-project {
+    background-color: #3498db;
+    border: none;
+    margin: 25px;
+    color: #fafafa;
+}
+
+/* .btn-project:hover {
+    background-color: #3498dbb4;
+} */
+
+
+@media(min-width:992px) {
+    .center-form {
+        padding-top: 30px;
+        margin: 0 auto;
+        min-height: 240px;
+        max-width: 50%;
+    }
 }
